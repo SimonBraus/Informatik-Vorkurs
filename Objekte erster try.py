@@ -1,8 +1,27 @@
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
+class GeomFigur:
+  def __init__(self, punkt_p):
+    self.punkt_p = punkt_p
+    
+  #def anzeigen(self):
+    #hier Funktion ausführen
+  #def vergroessern(self):
+    #hier Funktion ausführen
+  class Kreis():
+    def __init__(self):
+      #hier Funktion ausführen
 
-p1 = Person("John", 36)
+  class Rechteck:
+    def __init__(self):
+      #hierFunktion ausführen
 
-print(p1)
+    class Quadrat:
+      def __init__(self):
+        #hier Funktion ausführen
+
+  class Dreieck:
+    def __init__(self):
+      #hier Funktion ausführen
+
+q1 = GeomFigur.Rechteck.Quadrat()
+
+print("ist durchgelaufen")
