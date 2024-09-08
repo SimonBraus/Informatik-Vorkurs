@@ -1,9 +1,22 @@
 import random as rdm
+inpt1 = None
+while inpt1 != int:
+    inpt = input("Bitte Zahl eingeben: ")
+    BlockingIOError()
+    test = float(inpt) % 1
+    
+    print(test)
+    if inpt != int:
+        print("Fehler, bitte ganzzahlige Zahl angeben")
 
-a = [1,2,3]
+    elif test == 0:
+        break
+    else:
+        break
 
 
-b = rdm.randint(0,9)
-for i in a:
-    a = a * 2
-    print(a)
+a = [1,2,3,6,3,7]
+
+
+b = a[:inpt]
+print(b)
