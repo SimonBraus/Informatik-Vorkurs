@@ -1,0 +1,8 @@
+dev-requirements.txt
+pyproject.toml
+MachineLearning_Buch.egg-info/PKG-INFO
+MachineLearning_Buch.egg-info/SOURCES.txt
+MachineLearning_Buch.egg-info/dependency_links.txt
+MachineLearning_Buch.egg-info/requires.txt
+MachineLearning_Buch.egg-info/top_level.txt
+tests/test_MachineLearning-Buch.py
